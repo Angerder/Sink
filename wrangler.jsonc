@@ -34,6 +34,13 @@
       "dataset": "sink" // Override with DEPLOY_ANALYTICS_DATASET (default: sink). Keep in sync with NUXT_DATASET at runtime.
     }
   ],
+  "r2_buckets": [
+    {
+      "binding": "R2",
+      "preview_bucket_name": "sink",
+      "bucket_name": "sink"
+    }
+  ],
   "kv_namespaces": [
     {
       "binding": "KV",
